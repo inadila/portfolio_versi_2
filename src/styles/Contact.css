@@ -1,0 +1,31 @@
+
+input, textarea {
+  background-color: #222;
+  color: rgb(0, 0, 0); 
+  border: 1px solid #555; 
+}
+
+.mb-41 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #ffffff;
+}
+
+.mb-4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #000000; 
+
+}
+
+.input::placeholder, textarea::placeholder {
+  color: #000000; 
+}
+
+
+/* Tombol */
+button {
+  background-color: #0b8dc9;
+  color: #000000; 
+  border-color: #78c1f5;
+}
+
+

@@ -1,0 +1,11 @@
+.organizational-container {
+  height: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+  height: -10px;
+  top: 100.px;
+
+}
+

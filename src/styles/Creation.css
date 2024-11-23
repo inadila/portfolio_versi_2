@@ -1,0 +1,52 @@
+/* Kontainer Utama */
+.creation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 200px auto 100px; /* Atur margin atas, bawah, dan horizontal */
+  padding: 200px;
+  width: 50%; /* Lebar 50% dari container */
+  border-radius: 10px; /* Membuat sudut membulat */
+}
+
+/* Kartu */
+.creation-card {
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+  border-radius: 10px; /* Sudut membulat */
+  overflow: hidden; /* Pastikan isi tidak keluar */
+  display: flex; /* Menggunakan flexbox untuk menyelaraskan gambar dan teks */
+}
+
+/* Gambar */
+.img-fluid {
+  width: 50; /* Pastikan gambar mengambil setengah dari lebar kartu */
+  height: auto; /* Tinggi otomatis untuk menjaga aspek rasio */
+  object-fit: cover; /* Memastikan gambar mengisi area tanpa merusak aspek rasio */
+
+
+}
+
+/* Konten Teks */
+.card-content {
+  padding: 20px; /* Menambahkan padding untuk teks */
+  width: 50%; /* Pastikan teks mengambil setengah dari lebar kartu */
+  display: flex;
+  flex-direction: column; /* Mengatur teks dalam kolom */
+  justify-content: center; /* Pusatkan teks secara vertikal */
+}
+
+/* Judul */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40; /* Warna teks gelap */
+}
+
+/* Teks */
+.card-text {
+  font-size: 1rem;
+  color: #495057; /* Warna teks abu gelap */
+  line-height: 1.5; /* Spasi antar baris */
+}

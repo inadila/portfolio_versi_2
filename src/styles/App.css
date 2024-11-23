@@ -1,0 +1,226 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css');
+
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app-container {
+  background-color: #f8f9fa;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.app-container {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.navbar-custom {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.5); 
+  border-bottom: 2px solid #1a415e;
+  z-index: 1000;
+  height: 11%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.navbar-nav {
+  display: flex; 
+  gap: 20px; 
+  justify-content: center;
+}
+
+.navbar-nav .nav-link {
+  font-family: Cambria, serif;
+  color: black; /* Mengubah warna tulisan menjadi hitam */
+  text-decoration: none;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+  right: 10%;
+}
+
+
+.navbar-nav .nav-link::after {
+  content: ''; 
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: #1a415e;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #78c1f5; 
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%; 
+}
+
+.main-content {
+  margin-top: 12%;
+  padding: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: 45px;
+  position: absolute;
+  right: 80%; 
+}
+
+.name-container {
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: right;
+  color: #000000;
+  font-family: Cambria, serif;
+}
+
+.name-container h1 {
+  font-size: 2.5rem;
+  color: #000000;
+}
+
+/* =================================== */
+
+.about,
+.organ,
+.creation,
+.contact,
+.work {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.organ {
+  margin-top: 70px;
+  margin-bottom: 90px;
+  
+}
+
+.contact {
+  margin-bottom: 50px;
+  margin-top: 50px;;
+}
+
+.creation {
+  margin-top: 40px;
+  margin-bottom: -500px;
+
+}
+
+.skill {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: -80px;
+
+}
+
+.work {
+  margin-top: 70px;
+  margin-bottom: -5px;
+
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #fff;
+}
+
+.contact-left,
+.contact-right {
+  width: 48%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-input,
+.contact-textarea {
+  margin-bottom: 10px;
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-button {
+  padding: 12px;
+  font-size: 1rem;
+  border: none;
+  background-color: #1a415e;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-button:hover {
+  background-color: #78c1f5;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #1a415e;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #78c1f5;
+}
+
+.download-cv {
+  background-color: #78c1f5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-cv:hover {
+  background-color: #1a415e;
+}
+
+.download-cv i {
+  margin-right: 8px;
+}

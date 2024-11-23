@@ -1,0 +1,45 @@
+
+.about-me-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .about-me-box {
+    width: 50%;
+    height: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+
+  }
+  
+  .about-me-description {
+    background: linear-gradient(to left, #1a415e, #78c1f5);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    text-align: justify;
+  }
+  
+  .about-me-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-me-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
